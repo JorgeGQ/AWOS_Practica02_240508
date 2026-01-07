@@ -1,4 +1,4 @@
-## Practica 02: Repaso de Java Script ppara programación Backend
+## Práctica 02: Repaso de Java Script para programación Backend
 ---
 <p align="justify">
 En la siguiente práctica se realizarán pequeños ejercicios de repaso para cpomprender la
