@@ -1,3 +1,4 @@
+// Personalizamos el separador del ejercicio 03
 console.log("%cEjercicio 03: Funciones ",style_console);
 
 // 1.  Funciones Procedurales, funciones vacías (VOID) o funciones que no retornan un valor
@@ -104,7 +105,7 @@ console.log(`${loginStatus? "El usuario admin se ha logeado correctamente.": "Hu
 console.log("Test 4 - usuario: marcor , password: abcde")
 loginStatus = login("marcor","abcde");
 console.log(`${loginStatus? "El usuario admin se ha logeado correctamente.": "Hubo un error en el login del usuario admin." }`);
-/ FUNCIONES ANÓNIMAS, FUNCIONES FLECHA (ARROW) , FUNCIONES LAMBDA 
+// FUNCIONES ANÓNIMAS, FUNCIONES FLECHA (ARROW) , FUNCIONES LAMBDA 
 /* A diferencia de las funciones nombradas este tipo de fuciones no suelen ser reutilizadas en el código solo se ejecutan una sola vez, dando velocidad, individalidad y privacidad a los datos utilizados en el proceso*/
 
 // 5. Función anónima sin parámetros (Versión Extendida)
@@ -173,7 +174,7 @@ callback(response);
 };
 
 // Invocación de una función callback
-recoverPassword("jorgeolafgarciaquiroga@gmail.com", 
+recoverPassword("jorgeolafgarciaquiroga@gmail.com",
     function(systemResponse){
         console.log("Respuesta del sistema: ");
         console.log(systemResponse.message);
